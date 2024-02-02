@@ -1,0 +1,24 @@
+.tma-search-box {
+  height: min-content;
+  form {
+    display: flex;
+  }
+  &__input {
+    border-radius: 8px 0px 0px 8px;
+    height: 50px;
+    width: 400px;
+    @include breakpoint-max('md') {
+      width: 250px;
+    }
+    @include breakpoint-max('sm') {
+      width: 200px;
+    }
+  }
+  &__btn {
+    background-color: $color-yellow !important;
+    border: none !important;
+    border-radius: 0px 8px 8px 0px !important;
+    height: 50px;
+    width: 50px;
+  }
+}

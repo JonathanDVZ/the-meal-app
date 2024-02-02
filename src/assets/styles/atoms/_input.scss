@@ -1,0 +1,14 @@
+.tma-input {
+  border: 1px solid $color-grey;
+  display: block;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+body.tma-dark-mode .tma-input {
+  background-color: $color-dark-mode-blue;
+  color: white;
+}
